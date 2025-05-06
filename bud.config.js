@@ -7,6 +7,7 @@
  * @type {import('@roots/bud').Config}
  */
 export default async (app) => {
+	 app.use(['@roots/bud-sass'])
   /**
    * Application assets & entrypoints
    *
@@ -14,16 +15,24 @@ export default async (app) => {
    * @see {@link https://bud.js.org/reference/bud.assets}
    */
   app
+	  .alias({
+    '@images': app.path('resources/images'), 
+  })
+
     .entry('app', ['@scripts/app', '@styles/app'])
     .entry('editor', ['@scripts/editor', '@styles/editor'])
-    .assets(['images']);
+    .assets(['images'])
 
+	  .sass.registerGlobal([
+      '@styles/variables.scss',
+      '@styles/mixins.scss',
+    ])
   /**
    * Set public path
    *
    * @see {@link https://bud.js.org/reference/bud.setPublicPath}
    */
-  app.setPublicPath('/app/themes/sage/public/');
+  app.setPublicPath('/wp-content/themes/sage/public/');
 
   /**
    * Development server settings
