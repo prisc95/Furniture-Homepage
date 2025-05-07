@@ -1,33 +1,35 @@
 <section class="products">
+    <div class="container">
     <div class="top">
         <h3>Zoeken naar</h3>
         <h2>15000</h2>
         <h1>Producten</h1>
     </div>
-    <div class="icons">
+    <div class="bottom">
         <div class="bedroom">
             <img src="wp-content\themes\sage\resources\images\bedroom.png" alt="">
-            <span>Slaapkamer</span>
+            <p>Slaapkamer</p>
         </div>
         <div class="buffet">
             <img src="wp-content\themes\sage\resources\images\buffet.png" alt="">
-            <span>Tv-meubelen</span>
+            <p>Tv-meubelen</p>
         </div>
         <div class="dining">
             <img src="wp-content\themes\sage\resources\images\dining.png" alt="">
-            <span>Koken & eten</span>
+            <p>Koken & Eten</p>
         </div>
         <div class="sofa">
             <img src="wp-content\themes\sage\resources\images\sofa.png" alt="">
-            <span>Banken & fauteuils</span>
+            <p>Bankstellen</p>
         </div>
         <div class="table">
             <img src="wp-content\themes\sage\resources\images\table.png" alt="">
-            <span>Ladekasten</span>
+            <p>Ladekasten</p>
         </div>
         <div class="wardrobe">
             <img src="wp-content\themes\sage\resources\images\wardrobe.png" alt="">
-            <span>Kledingkasten</span>
+            <p>Kledingkasten</p>
         </div>
     </div>
+</div>
 </section>
