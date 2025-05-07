@@ -8,5 +8,11 @@ section {
         font-family: $font-md;
         font-size: $text-md;
         color: #FFF;
+
+        &:hover {
+            background-color: #FFF;
+            color: $secondary-800;
+            transition: all ease 0.7s;
+        }
     }
 }

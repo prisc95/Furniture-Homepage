@@ -81,6 +81,12 @@ section.hero {
             .btn2 { 
                 background-color: #FFF;
                 color: $secondary-800;
+
+                &:hover { 
+                    background-color: $secondary-800;
+                    color: #FFF;
+                    
+                }
             }
 
         }
