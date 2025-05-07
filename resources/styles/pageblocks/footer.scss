@@ -1,0 +1,41 @@
+footer.content-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .container {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 3px solid $primary-50;
+
+        .left {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: $text-xs;
+            }
+
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .fa-couch {
+                display: flex;
+                font-size: $text-lg;
+                color: $secondary-500;
+            }
+
+            h1 {
+                font-family: $font-xl;
+                font-size: $text-lg;
+            }
+        }
+    }
+}
