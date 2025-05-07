@@ -1,26 +1,28 @@
 <section class="blog">
-    <div class="content">
+    <div class="container">
+
         <div class="top">
-            <div class="magazine">
+            <div class="img-wrapper">
                 <img src="wp-content\themes\sage\resources\images\magazine.png" alt="">
             </div>
-            <div class="trends">
-                <h1>Winter trends 2025</h1>
-                <button>Download</button>
+            <div class="content">
+                <h1>WINTER TRENDS 2025</h1>
+                <button>DOWNLOAD</button>
             </div>
         </div>
-        <div class="articles">
+
+        <div class="bottom">
             <div class="article">
-                <span>01</span>
-                <span>Lorem ipsum dolor sit amet</span>
+                <h1>01</h1>
+                <h3>LOREM IPSUM DOLOR SIT AMET</h3>
             </div>
             <div class="article">
-                <span>02</span>
-                <span>Lorem ipsum dolor sit amet</span>
+                <h1>02</h1>
+                <h3>LOREM IPSUM DOLOR SIT AMET</h3>
             </div>
             <div class="article">
-                <span>03</span>
-                <span>Lorem ipsum dolor sit amet</span>
+                <h1>03</h1>
+                <h3>LOREM IPSUM DOLOR SIT AMET</h3>
             </div>
         </div>
     </div>
