@@ -60,12 +60,15 @@ section.blog {
             display: flex;
             flex-direction: row;
             width: 85%;
+            gap: 15px;
+            margin-bottom: 25px;
 
             .article {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 gap: 5px;
+                
 
                
             }
