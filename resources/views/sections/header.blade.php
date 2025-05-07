@@ -7,46 +7,49 @@
   </a>
 
   <section class="navbar">
-    <div class="top">
-      <div class="logo">
-        <i class="fa-solid fa-couch"></i>
-        <span>Meubels</span>
-      </div>
-      <div class="search-bar">
-        <input type="text" placeholder="Wat zoek je?">
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </div>
-      <div class="user">
-        <i class="fa-solid fa-cart-shopping"></i>
-        <span>€0.00</span>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-user"></i>
-      </div>
-      <div class="list">
-        <div>
-          <i class="fa-solid fa-house"></i>
-          <span>Home</span>
+    <div class="container">
+        <div class="top">
+              <div class="logo">
+                    <i class="fa-solid fa-couch"></i>
+                    <h1>Meubels</h1>
+              </div>
+              <div class="search-bar">
+                    <input type="text" placeholder="Wat zoek je?">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="user">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>€0.00</p>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-user"></i>
+              </div>
         </div>
-        <div>
-          <i class="fa-solid fa-couch"></i>
-          <span>Producten</span>
-        </div>
-        <div>
-          <i class="fa-solid fa-euro-sign"></i>
-          <span>Prijzen</span>
-        </div>
-        <div>
-          <i class="fa-solid fa-book"></i>
-          <span>Blog</span>
-        </div>
-        <div>
-          <i class="fa-solid fa-star"></i>
-          <span>Verkoop</span>
-        </div>
-        <div>
-          <i class="fa-solid fa-message"></i>
-          <span>Contact</span>
-        </div>
+
+      <div class="bottom">
+            <div class="card">
+                  <i class="fa-solid fa-house"></i>
+                  <p>HOME</p>
+            </div>
+            <div class="card">
+                  <i class="fa-solid fa-couch"></i>
+                  <p>PRODUCTEN</p>
+            </div>
+            <div class="card">
+                  <i class="fa-solid fa-euro-sign"></i>
+                  <p>PRIJZEN</p>
+            </div>
+            <div class="card">
+                  <i class="fa-solid fa-book"></i>
+                  <p>BLOG</p>
+            </div>
+            <div class="card">
+                  <i class="fa-solid fa-star"></i>
+                  <p>VERKOOP</p>
+            </div>
+            <div class="card">
+                  <i class="fa-solid fa-message"></i>
+                  <p>CONTACT</p>
+            </div>
       </div>
     </div>
   </section>
