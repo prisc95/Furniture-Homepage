@@ -14,7 +14,7 @@ section.products {
                 align-items: flex-start;
 
                 h3 {
-                    font-size: $text-md;
+                    font-size: $text-lg;
                     padding-bottom: 15px;
                 }
 
@@ -35,6 +35,7 @@ section.products {
             .bottom {
                 display: flex;
                 flex-direction: row;
+                flex-wrap: wrap;
                 gap: 15px;
                 padding: 50px 0;
 
@@ -49,12 +50,18 @@ section.products {
                     justify-content: center;
                     align-items: center;
 
-                    width: 100px;
-                    height: 100px;
+                    gap: 10px;
+
+                    width: 170px;
+                    height: 170px;
                     border-radius: 10px;
 
                     background-color: $primary-50;
                     cursor: pointer;
+
+                    p {
+                        font-size: $text-md;
+                    }
 
                     &:hover {
                         background-color: #FFF;
