@@ -23,6 +23,29 @@
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-solid fa-user"></i>
               </div>
+
+              <div class="circle-container">
+                  <div class="circle">
+                    <button id="close">
+                      <i class="fas fa-times"></i>
+                    </button>
+                    <button id="open">
+                      <i class="fas fa-bars"></i>
+                    </button>
+                  </div>
+                  <div class="nav">
+                        <ul>
+                              <li><i class="fa-solid fa-house"></i><a href="#"> Home</a></li>
+                              <li><i class="fa-solid fa-couch"></i><a href="#">Producten</a></li>
+                              <li><i class="fa-solid fa-euro-sign"></i><a href="#"> Prijzen</a></li>
+                              <li><i class="fa-solid fa-book"></i><a href="#"> Blog</a></li>
+                              <li><i class="fa-solid fa-star"></i><a href="#"> Verkoop</a></li>
+                              <li><i class="fa-solid fa-message"></i><a href="#"> Contact</a></li>
+
+                        </ul>
+                      </div>
+                  
+              </div>
         </div>
 
       <div class="bottom">
