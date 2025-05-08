@@ -13,7 +13,7 @@
                     <i class="fa-solid fa-couch"></i>
                     <h1>Meubels</h1>
               </div>
-              <div class="search-bar">
+              <div class="searchbar">
                     <input type="text" placeholder="Wat zoek je?">
                     <i class="fa-solid fa-magnifying-glass"></i>
               </div>
