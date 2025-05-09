@@ -6,7 +6,7 @@
                 <img src="wp-content\themes\sage\resources\images\magazine.png" alt="">
             </div>
             <div class="content">
-                <h1>WINTER TRENDS 2025</h1>
+                <h1>ZOMER TRENDS 2025</h1>
                 <button>DOWNLOAD</button>
             </div>
         </div>

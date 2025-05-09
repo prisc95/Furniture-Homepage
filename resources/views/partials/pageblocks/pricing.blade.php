@@ -6,7 +6,7 @@
             </div>
             
             <div class="content">
-                <h1>Maak je klaar voor Kerstmis</h1>
+                <h1>Maak je klaar voor de zomer</h1>
                 <button>Huidige trends</button>
             </div>
         </div>
