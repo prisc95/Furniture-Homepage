@@ -74,3 +74,17 @@ section.products {
         }
     
 }
+
+@media screen and (min-width: 640px) and (max-width: 767px){ 
+
+    section.products {
+
+        .container {
+         
+
+            .bottom {
+                justify-content: center;
+            }
+        }
+    }
+}
