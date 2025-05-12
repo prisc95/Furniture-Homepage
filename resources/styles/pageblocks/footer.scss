@@ -40,3 +40,13 @@ footer.content-info {
         }
     }
 }
+
+@media screen and (min-width: 640px) and (max-width: 767px){ 
+
+    footer.content-info {
+
+        .container {
+            width: 90%;
+        }
+    }
+}
