@@ -50,3 +50,16 @@ footer.content-info {
         }
     }
 }
+
+@media screen and (min-width: 360px) and (max-width: 640px){ 
+    footer.content-info {
+
+        .container {
+            width: 50%;
+
+            .right {
+                display: none;
+            }
+        }
+    }
+}
