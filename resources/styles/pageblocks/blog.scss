@@ -86,3 +86,30 @@ section.blog {
     
 }
 }
+
+@media screen and (min-width: 360px) and (max-width: 640px){ 
+
+        section.blog {
+
+            .container {
+                height: 90%;
+                width: 80%;
+                
+                .top {
+                     .img-wrapper {
+                    display: none;
+                    }
+
+                    .content {
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                }
+
+                .bottom {
+                    flex-direction: column;
+                }
+            }
+        }
+}
