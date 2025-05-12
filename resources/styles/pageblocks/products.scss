@@ -88,3 +88,17 @@ section.products {
         }
     }
 }
+
+@media screen and (min-width: 360px) and (max-width: 640px){ 
+
+    section.products {
+
+        .container {
+         
+
+            .bottom {
+                justify-content: center;
+            }
+        }
+    }
+}
