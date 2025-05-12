@@ -156,3 +156,15 @@ section.pricing {
         }
     }
 }
+
+@media screen and (min-width: 360px) and (max-width: 640px){ 
+    section.pricing {
+
+        .container { 
+
+            .top {
+                flex-direction: column;
+            }
+        }
+    }
+}
