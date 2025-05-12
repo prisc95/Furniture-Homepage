@@ -68,3 +68,45 @@ section.contact {
         }
     }
 }
+
+@media screen and (min-width: 360px) and (max-width: 640px){ 
+
+    section.contact {
+
+        .container {
+            width: 90%;
+            flex-direction: column;
+            
+
+            .left {
+                border-radius: 10px 10px 0 0;
+                width: 90%;
+                flex-basis: 60%;
+
+                h3 {
+                    padding: 50px 25px;
+                }
+            }
+
+            .right {
+                flex-direction: column;
+                padding: 20px 0;
+                gap: 25px;
+                border-radius: 0 0 10px 10px;
+                width: 90%;
+                flex-basis: 40%;
+
+                input {
+                    width: 90%;
+                    &::placeholder {
+                    font-size: $text-md;
+                }
+                }
+
+                button {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
