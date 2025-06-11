@@ -1,115 +1,108 @@
 section.blog {
-    height: 70vh;
-    background-color: $primary-950;
- 
+  background-color: $primary-950;
 
-    .container {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+
+    background-color: $secondary-400;
+    border-radius: 10px;
+    border: none;
+
+    margin: 5rem 0;
+
+    .top {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      margin-top: 1rem;
+
+      .img-wrapper {
+        display: flex;
+        flex-basis: 50%;
+        padding: 25px;
+
+        img {
+          object-fit: contain;
+        }
+      }
+
+      .content {
         display: flex;
         flex-direction: column;
+        flex-basis: 50%;
 
-        width: 70%;
-        height: 70%;
-
-        background-color: $secondary-400;
-        border-radius: 10px;
-        border: none;
-        
-        .top {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            gap: 25px;
-
-            .img-wrapper {
-                display: flex;
-                flex-basis: 50%;
-                padding: 25px;
-
-                img {
-                    object-fit: contain;
-                }
-            }
-
-            .content {
-                display: flex;
-                flex-direction: column;
-                flex-basis: 50%;
-
-                h1 {
-                    font-size: $text-xxxl;
-                    font-weight: $font-w800;
-                    color: #FFF;
-                    line-height: 0.8;
-                }
-
-                button {
-                    margin-top: 25px;
-                    background-color: $primary-950;
-                    color: #FFF;
-
-                    &:hover {
-                        background-color: #FFF;
-                        border: 1px solid $primary-950;
-                        color: $primary-950;
-                    }
-            }
+        h1 {
+          font-size: $text-xxxl;
+          font-weight: $font-w800;
+          color: #fff;
+          line-height: 0.8;
         }
+
+        button {
+          margin-top: 25px;
+          background-color: $primary-950;
+          color: #fff;
+
+          &:hover {
+            background-color: #fff;
+            border: 1px solid $primary-950;
+            color: $primary-950;
+          }
+        }
+      }
     }
 
-        .bottom {
-            display: flex;
-            flex-direction: row;
-            width: 85%;
-            gap: 15px;
-            margin-bottom: 25px;
+    .bottom {
+      display: flex;
+      flex-direction: row;
+      width: 85%;
+      gap: 15px;
+      margin-bottom: 1rem;
 
-            .article {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 5px;
-                
+      .article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+      }
 
-               
-            }
+      h1 {
+        font-size: $text-xxxl;
+      }
 
-            h1 {
-                font-size: $text-xxxl;
-            }
-
-            h1,
-            h3 {
-                color: #FFF;
-            }
-        }
-    
-}
+      h1,
+      h3 {
+        color: #fff;
+      }
+    }
+  }
 }
 
-@media screen and (min-width: 360px) and (max-width: 640px){ 
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  section.blog {
+    .container {
+      height: 90%;
+      width: 80%;
 
-        section.blog {
-
-            .container {
-                height: 90%;
-                width: 80%;
-                
-                .top {
-                     .img-wrapper {
-                    display: none;
-                    }
-
-                    .content {
-                        justify-content: center;
-                        align-items: center;
-                    }
-
-                }
-
-                .bottom {
-                    flex-direction: column;
-                }
-            }
+      .top {
+        .img-wrapper {
+          display: none;
         }
+
+        .content {
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .bottom {
+        flex-direction: column;
+      }
+    }
+  }
 }
